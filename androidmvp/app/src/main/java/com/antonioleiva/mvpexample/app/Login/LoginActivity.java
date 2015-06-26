@@ -63,7 +63,9 @@ public class LoginActivity extends Activity implements LoginView, View.OnClickLi
     @Override public void setPasswordError() {
         password.setError(getString(R.string.password_error));
     }
-
+    /**
+    / Test
+    **/
     @Override public void navigateToHome() {
         startActivity(new Intent(this, MainActivity.class));
         finish();
